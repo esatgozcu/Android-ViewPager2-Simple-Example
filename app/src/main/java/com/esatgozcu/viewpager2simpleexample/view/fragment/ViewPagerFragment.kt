@@ -30,9 +30,10 @@ class ViewPagerFragment : Fragment() {
         binding.pager.adapter = demoCollectionPagerAdapter
         // TabLayout implementation
         TabLayoutMediator(binding.tabLayout, binding.pager) { tab, position ->
-            tab.text = "OBJECT ${(position + 1)}"
+            tab.text = "Page ${(position + 1)}"
         }.attach()
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

@@ -9,5 +9,14 @@
         android:id="@+id/firstFragment"
         android:name="com.esatgozcu.viewpager2simpleexample.view.fragment.ViewPagerFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_view_pager" />
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_firstFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.esatgozcu.viewpager2simpleexample.view.fragment.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>
