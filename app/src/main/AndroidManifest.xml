@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ViewPager2SimpleExample"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,11 +1,11 @@
-package com.esatgozcu.viewpager2simpleexample
+package com.esatgozcu.viewpager2simpleexample.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
+import com.esatgozcu.viewpager2simpleexample.R
 import com.esatgozcu.viewpager2simpleexample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
