@@ -29,6 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    //View Binding
     buildFeatures {
         viewBinding true
     }
@@ -47,7 +48,4 @@ dependencies {
     //Navigation
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
-
-    //For ViewPager2
-    implementation "com.google.android.material:material:1.1.0-beta01"
 }
